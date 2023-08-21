@@ -87,3 +87,23 @@
     }
     
     }
+
+    @media only screen and (min-width: 480px) and (max-width: 720px) {
+
+
+    
+        #About-Me {
+            display: grid;
+            grid-template-columns: 60% 40%;
+        
+            
+        }
+        
+        
+            #Personal-Statement {
+                display: inline-block;
+        
+        
+            }
+            
+            }
