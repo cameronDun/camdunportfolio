@@ -1,0 +1,26 @@
+#contact{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: block;
+    text-align: left;
+    border: 1px solid #ddd;
+    color: #f8f7f7;  
+    font-size: 1.04em;
+    width:100%;
+    padding-bottom: 20px;
+}
+
+#contact ul {
+    list-style-type: none;
+}
+
+.email{
+    font-size: 1.04em;
+    color: #f8f7f7; 
+}
+
+.email:hover{
+    text-decoration: none;
+    color: rgb(143, 143, 143);
+
+}

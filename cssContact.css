@@ -1,0 +1,59 @@
+#contact-info{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+
+#contact-info table{
+    
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: block;
+    padding: 20px;
+    text-align: left;
+    color: #f8f7f7;  
+    font-size: 1.04em;
+
+}
+
+#email{
+    font-size: 1.04em;
+    color: #f8f7f7; 
+}
+
+#email:hover{
+    text-decoration: none;
+    color: rgb(143, 143, 143);
+
+}
+
+.fa-instagram {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #f8f7f7; 
+}
+
+.fa-linkedin {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #f8f7f7; 
+}
+
+.fa-instagram:hover{
+    text-decoration: none;
+    color: rgb(143, 143, 143);
+
+}
+
+.fa-linkedin:hover{
+    text-decoration: none;
+    color: rgb(143, 143, 143);
+
+}
+
+#contact-info{
+    width:100%;
+}
+

@@ -1,0 +1,89 @@
+
+#About-Me {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    margin: auto;
+    border: 1px solid #ddd;
+    width: 100%;
+    
+}
+
+#ABout-Me h2{
+    margin-top: 1px;
+}
+
+#Personal-Statement {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    padding: 20px;
+    text-align: left;
+    padding-right: 5px;
+    border-right: 1px solid #ddd;
+
+}
+
+#img {
+    border: 6px solid #ddd;
+    border-radius: 4px;
+    width: 150px;
+    margin: 5px;
+    opacity: 0.9;
+    margin-top: 40px;
+}
+
+#devTools {
+    display: block;
+    padding: 20px;
+    text-align: left;
+    list-style-type: none;
+    text-align: center;
+}
+
+#toolsList {
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+#experience {
+
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: block;
+    text-align: left;
+    border: 1px solid #ddd;
+    width: 100%;
+
+
+}
+
+#experience h2{
+    margin-top: 1px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+#experience p{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-top: 1px;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+
+
+    
+#About-Me {
+    display: grid;
+    grid-template-columns: 60% 40%;
+
+    
+}
+
+
+    #Personal-Statement {
+        display: inline-block;
+
+
+    }
+    
+    }
