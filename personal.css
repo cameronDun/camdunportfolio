@@ -121,7 +121,7 @@ max-height:100%;
 }
 
 
-@media only screen and (min-width: 320px) and (max-width: 600px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
 
     #stuff {
         display: inline;
@@ -183,3 +183,66 @@ max-height:100%;
     
     
     }
+
+    @media only screen and (min-width: 481px) and (max-width: 768px) {
+
+        #stuff {
+            display: inline;
+            width: 100%;
+    
+        }
+    
+        #list {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            width: 100%;
+            border: 1px solid #ddd;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+        }
+    
+        #Interests {
+    
+        grid-column-start: 2;
+        grid-row-start:2 ;
+        border-bottom-right-radius: 15px;
+    
+    
+    }
+    
+        #Surfing {
+    
+        grid-column-start: 1;
+        grid-row-start:1 ;
+    
+     
+        }
+    
+        #InterestsL {
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 0px;
+    
+    
+        grid-column-start: 1;
+      
+    
+        }
+    
+        #art{
+    
+        grid-column-start: 2;
+    
+    
+        }
+    
+        .button {
+    
+            margin-left: 20px;
+            margin-right: 20px;
+    
+        }
+    
+    
+        
+        
+        }
