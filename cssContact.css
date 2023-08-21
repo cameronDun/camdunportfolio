@@ -57,3 +57,8 @@
     width:100%;
 }
 
+#phone-number{
+    font-size: 1.04em;
+    color: #f8f7f7; 
+    text-decoration: none;
+}
