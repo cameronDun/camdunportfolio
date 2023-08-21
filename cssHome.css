@@ -72,18 +72,24 @@
 
 
     
-#About-Me {
-    display: grid;
-    grid-template-columns: 60% 40%;
-
-    
-}
-
-
-    #Personal-Statement {
+    #About-Me {
         display: inline-block;
 
+    
+        
+    }
+    
+    
+        #Personal-Statement {
+            display: grid;
+            grid-template-columns: 60% 40%;
+            border-bottom: 1px solid #ddd;
+    
+        }
 
+    #img {
+        width:70%;
+        
     }
     
     }
