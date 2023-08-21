@@ -10,6 +10,7 @@
     font-size: 1em;
     grid-column-start: 1;
     resize: none;
+    -webkit-backdrop-filter: blur(15px) brightness(50%);
     backdrop-filter: blur(15px) brightness(50%);
 
 }
@@ -23,6 +24,7 @@
     font-size: 1em;
     grid-column-start: 1;
     resize: none;
+    -webkit-backdrop-filter: blur(15px) brightness(50%);
     backdrop-filter: blur(15px) brightness(50%);
 
 }
@@ -36,6 +38,7 @@
     font-size: 1em;
     grid-column-start: 1;
     resize: none;
+    -webkit-backdrop-filter: blur(15px) brightness(50%);
     backdrop-filter: blur(15px) brightness(50%);
  
 }
@@ -50,6 +53,7 @@
     color: #f8f7f7;  
     font-size: 1em;
     grid-column-start: 1;
+    -webkit-backdrop-filter: blur(15px) brightness(50%);
     backdrop-filter: blur(15px) brightness(50%);
 
 }
@@ -60,6 +64,7 @@
     height: 280px;
     margin: 10px;
     opacity: 1;
+    -webkit-backdrop-filter: blur(15px) brightness(50%);
     backdrop-filter: blur(15px) brightness(50%);
 }
 
@@ -104,6 +109,7 @@ max-height:100%;
     padding: 20px;
     text-align: center;
     border: 1px solid #ddd;
+    -webkit-backdrop-filter: blur(15px) brightness(50%);
     backdrop-filter: blur(15px) brightness(50%);
     color: #f8f7f7;
     margin-left: 10px;

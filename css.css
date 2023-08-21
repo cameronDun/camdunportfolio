@@ -10,7 +10,8 @@ html {
 
 
 .content {
-    color: #f8f7f7;          
+    color: #f8f7f7;
+    -webkit-backdrop-filter: blur(15px) brightness(50%);          
     backdrop-filter: blur(15px) brightness(50%);
     font-size: 1.04em;
 
@@ -30,6 +31,7 @@ header {
   
 
 nav {
+    -webkit-backdrop-filter: blur(15px) brightness(50%);
     backdrop-filter: blur(15px) brightness(50%);
     width: 100%;
     border: 1px solid #ddd;
